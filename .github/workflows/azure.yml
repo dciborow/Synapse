@@ -29,7 +29,13 @@ jobs:
       uses: Azure/login@v1.1
       with:
         # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Azure CLI Action
+      uses: Azure/cli@1.0.4
+      with:
+        # Specify the script here
+        inlineScript: |
+          az group create -n dciborowsynapse -l eastus
     - name: Deploy Azure Resource Manager (ARM) Template
       uses: Azure/arm-deploy@v1
       with:
@@ -42,4 +48,9 @@ jobs:
         # Specify the path or URL to the Azure Resource Manager template.
         template: Manage/DeployWorkspace/workspace/azuredeploy.json
         parameters: Manage/DeployWorkspace/workspace/azuredeploy.parameters.json
-
+    - name: Azure CLI Action
+      uses: Azure/cli@1.0.4
+      with:
+        # Specify the script here
+        inlineScript: |
+          az group delete -n dciborowsynapse --yes --no-wait
