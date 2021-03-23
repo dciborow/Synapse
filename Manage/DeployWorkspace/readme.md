@@ -11,3 +11,4 @@ This template deploys Azure Synapse workspace with underlying Data Lake Storage.
 </a>
 
 `Tags: Azure, Synapse, Analytics`
+
