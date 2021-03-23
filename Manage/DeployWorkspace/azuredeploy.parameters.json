@@ -15,7 +15,7 @@
             "value": "ausername"
         },
         "sqlAdministratorPassword": {
-            "value": ""
+            "value": "[guid()]"
         }
     }
 }
