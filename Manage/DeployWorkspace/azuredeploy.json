@@ -9,6 +9,7 @@
             "type": "String"
         },
         "sqlAdministratorPassword": {
+            "defaultValue": "[guid()]",
             "type": "SecureString"
         },
         "tagValues": {
