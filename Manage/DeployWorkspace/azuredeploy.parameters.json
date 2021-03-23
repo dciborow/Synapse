@@ -17,4 +17,5 @@
         "sqlAdministratorPassword": {
             "value": "[guid()]"
         }
+    }
 }
