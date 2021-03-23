@@ -6,7 +6,7 @@
             "defaultValue": "[uniqueString('synapse')]",
             "type": "String"
         },
-        "sqlAdministratorLogin": {,
+        "sqlAdministratorLogin": {
             "defaultValue": "[uniqueString('user')]"
             "type": "String"
         },
