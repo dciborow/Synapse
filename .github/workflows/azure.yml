@@ -46,7 +46,7 @@ jobs:
         # Provide the name of a resource group, only required for resource Group deployments.
         resourceGroupName: dciborowsynapse
         # Specify the path or URL to the Azure Resource Manager template.
-        template: Synapse/Manage/DeployWorkspace/workspace/azuredeploy.json
+        template: Manage/DeployWorkspace/workspace/azuredeploy.json
 
     - name: Azure CLI Action
       uses: Azure/cli@1.0.4
