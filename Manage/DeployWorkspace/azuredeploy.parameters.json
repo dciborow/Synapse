@@ -6,7 +6,7 @@
             "value": "synapse"
         },
         "location": {
-            "value": ""
+            "value": "eastus"
         },
         "defaultDataLakeStorageAccountName": {
             "value": "datastore"
@@ -15,6 +15,6 @@
             "value": "ausername"
         },
         "sqlAdministratorPassword": {
-            "value": ""
+            "value": "[guid()]"
         }
 }
