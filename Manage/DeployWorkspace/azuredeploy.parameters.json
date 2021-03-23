@@ -13,9 +13,6 @@
         },
         "sqlAdministratorLogin": {
             "value": "ausername"
-        },
-        "sqlAdministratorPassword": {
-            "value": "[guid('1234')]"
         }
     }
 }
