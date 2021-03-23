@@ -10,5 +10,4 @@ This template deploys Azure Synapse workspace with underlying Data Lake Storage.
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a>
 
-
 `Tags: Azure, Synapse, Analytics`
