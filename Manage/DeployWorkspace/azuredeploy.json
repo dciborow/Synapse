@@ -3,12 +3,15 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
+            "defaultValue": "[uniqueString('synapse')]",
             "type": "String"
         },
         "sqlAdministratorLogin": {
+            "defaultValue": "[uniqueString('user')]",
             "type": "String"
         },
         "sqlAdministratorPassword": {
+            "defaultValue": "[guid('')]",
             "type": "SecureString"
         },
         "tagValues": {
